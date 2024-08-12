@@ -27,9 +27,9 @@ public class CWH_17_introduction_Arrays {
         // marks[3] = 90;
         // marks[4] = 86;
 
+
         // 3. Declaration, memory allocation and initialization together
         int [] marks = {98, 45, 79, 99, 80};
-
         // marks[5] = 96; - throws an error
         System.out.println(marks[4]);
     }

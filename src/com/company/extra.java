@@ -32,33 +32,50 @@ public class extra {
 //}
 
 //    class Solution{
-        public static void main(String[] args){
-            Scanner M = new Scanner(System.in);
-            System.out.println("c = ");
-            String c =M.next();
-                    // Ensure the input is a single character
-                    if (c.length() != 1) {
-                        System.out.println("Please enter a single character.");
-                    } else {
-                        char ch = c.charAt(0);
-                        switch (ch) {
-                            case 'A':
-                            case 'E':
-                            case 'I':
-                            case 'O':
-                            case 'U':
-                            case 'a':
-                            case 'e':
-                            case 'i':
-                            case 'o':
-                            case 'u':
-                                System.out.println("YES");
-                                break;
-                            default:
-                                System.out.println("NO");
+//        public static void main(String[] args){
+//            Scanner M = new Scanner(System.in);
+//            System.out.println("c = ");
+//            String c =M.next();
+//                    // Ensure the input is a single character
+//                    if (c.length() != 1) {
+//                        System.out.println("Please enter a single character.");
+//                    } else {
+//                        char ch = c.charAt(0);
+//                        switch (ch) {
+//                            case 'A':
+//                            case 'E':
+//                            case 'I':
+//                            case 'O':
+//                            case 'U':
+//                            case 'a':
+//                            case 'e':
+//                            case 'i':
+//                            case 'o':
+//                            case 'u':
+//                                System.out.println("YES");
+//                                break;
+//                            default:
+//                                System.out.println("NO");
+//                        }
+//                    }
+//                }
+                public static void main(String[] args) {
+                     Scanner sc = new Scanner(System.in);
+                     int t=sc.nextInt(); //Taking the number of testcases
+                    while(t-- >0)
+                        {
+                            int a =sc.nextInt();
+                            String s =sc.nextLine();
+                            s+=sc.nextLine();
+
+                            //Your code here
+
+                            System.out.println(a);
+                            System.out.println(s);
                         }
-                    }
-                }
+
+}
+
             }
 
 
