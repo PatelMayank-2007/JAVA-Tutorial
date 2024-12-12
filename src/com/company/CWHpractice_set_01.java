@@ -5,15 +5,15 @@ public class CWHpractice_set_01 {
     public static void main(String[] args) {
         // QUESTION 1 TO SUM THREE NUMBER
         Scanner M=new Scanner(System.in);
-//        System.out.print("Enter your first number:");
-//        int a=M.nextInt();
-//        System.out.print("Enter your second number:");
-//        int b=M.nextInt();
+        System.out.print("Enter your first number:");
+        long a=M.nextInt();
+        System.out.print("Enter your second number:");
+        long b=M.nextInt();
 //        System.out.print("Enter your third number:");
 //        int c=M.nextInt();
-//        int d =a+b+c;
-//        System.out.print("The addition of three number is:");
-//        System.out.println(d);
+        long d =a*b;
+        System.out.print("The multiplication  of three number is:" + d );
+//        System.out.println();
 
         //QUESTION 2 TO CALCULATE CGPA
 //        System.out.print("Enter your marks of first subject:" );
@@ -38,8 +38,8 @@ public class CWHpractice_set_01 {
 //        System.out.print("The conversion of  " + a + " kilometers to miles is " + b );
 
         // Question 5 TO DETECT THE INTEGER
-        System.out.print("Enter the number:");
-        System.out.println(M.hasNextInt());
+//        System.out.print("Enter the number:");
+//        System.out.println(M.hasNextInt());
 
 
 

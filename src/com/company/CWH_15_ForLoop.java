@@ -14,8 +14,8 @@ public class CWH_15_ForLoop {
 //            System.out.println(i);
 //        }
 
-        for (int i= 5 ;i>0;i--){
-            System.out.println(i);
+        for (int i= 1 ;i<=100;i++){
+            System.out.println(i+" i am mayank ");
         }
     }
 }

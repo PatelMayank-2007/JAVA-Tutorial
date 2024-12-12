@@ -1,9 +1,9 @@
 package com.company;
 import  java.util.Scanner;
 
-class Subject{
-    float max = 100;
-}
+//class Subject{
+//    float max = 100;
+//}
 
 public class CWHexercise01 {
     public static void main (String [] args){
