@@ -38,8 +38,8 @@ public class CWHpractice_set_01 {
 //        System.out.print("The conversion of  " + a + " kilometers to miles is " + b );
 
         // Question 5 TO DETECT THE INTEGER
-//        System.out.print("Enter the number:");
-//        System.out.println(M.hasNextInt());
+        System.out.print("Enter the number:");
+        System.out.println(M.hasNextInt());
 
 
 
