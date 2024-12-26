@@ -8,13 +8,13 @@ public class CWHpractice_set_02 {
 //        System.out.println(a);
 
         //Question 2:   Write a java program to encrypt a grade by adding 8 to it. Decrypt it to show the correct grade.\
-//        char grade = 'B';
-//        grade = (char)(grade + 8);
-//        System.out.println(grade);
-//
+        char grade = 'B';
+        grade = (char)(grade + 8);
+        System.out.println(grade);
+
 //        // decrypting a grade
-//        grade= (char)(grade - 8);
-//        System.out.println(grade);
+        grade= (char)(grade - 8);
+        System.out.println(grade);
 
         //Question 3:Use comparison operators to find out whether a given number is greater than the user entered number or not.
 //        Scanner M = new Scanner(System.in);
