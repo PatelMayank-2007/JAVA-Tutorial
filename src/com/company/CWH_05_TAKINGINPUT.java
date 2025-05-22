@@ -16,5 +16,7 @@ public class CWH_05_TAKINGINPUT {
         float sum=a+b;
         System.out.print("your answer is: ");
         System.out.println(sum);
+        System.out.println("hello world");
+        
     }
 }
